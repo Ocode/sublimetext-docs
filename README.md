@@ -2,6 +2,16 @@
 
 Sublime Text 手冊網址：[http://docs.sublimetext.tw/](http://docs.sublimetext.tw/)
 
+##使用
+
+浏览器里新增一个书签，书签网址处输入以下内容：
+
+    javascript:(function(){var a=document,b=a.body,c=a.createElement("script");c.setAttribute("src","http://ocode.github.io/simplebig/big5.js");a.querySelector("head").appendChild(c);})()
+
+
+此内容会在网页右上角增加一个按钮，作为简繁字体互转使用，方便查看简体内容！
+
+
 ## 本地建置
 
     $ git clone https://github.com/chinghanho/sublimetext-docs.git
